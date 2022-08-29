@@ -2,3 +2,34 @@
   padding:0;
   margin: 0;
 }
+
+.navbar {
+  height: 100px;
+  background-color: purple;
+}
+
+#header {
+  height: 700px;
+  background-color: aqua;
+}
+
+#main {
+  height: 700px;
+  background-color: blue;
+}
+
+#contact {
+  height: 700px;
+  background-color: black;
+}
+
+#services {
+  height: 700px;
+  background-color: orange;
+}
+
+#footer {
+  height: 100px;
+  background-color: green;
+}
+
