@@ -67,6 +67,39 @@ nav ul li a:hover {
   opacity: 0.1px;
 }
 
+#header-cta{
+max-width: 35%;
+position: absolute;
+left: 6.5rem;
+top: 12rem;
+font-size: 3.0rem;
+}
+
+#cta-text{
+max-width: 35%;
+position: absolute;
+left: 6.5rem;
+top: 28rem;
+font-size: 1.0rem;
+}
+
+.cta-button{
+  background-color:#CC444B;
+  color:#FFFFFF;
+  text-decoration: none;
+  border: 2px solid black;
+  font-weight: bold;
+  padding:10px 25px;
+  border-radius: 25px;
+  transition: transform .4s;
+  position: absolute;
+  left: 12.5rem;
+  top: 33rem;
+}
+
+.cta-button:hover{
+  transform: scale(1.2);
+}
 
 #main {
   height: 700px;
