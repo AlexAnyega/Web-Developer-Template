@@ -1,8 +1,10 @@
+/*----------------------------- Universal Styling -------------------------------*/
 *{
   padding:0;
   margin: 0;
 }
 
+/*----------------------------- Navigation -------------------------------*/
 nav{
   display:flex;
   align-items:center;
@@ -55,7 +57,7 @@ nav ul li a:hover {
   transform: scale(1.2);
 }
 
-
+/*----------------------------- Header -------------------------------*/
 
 #header {
   height: 700px;
@@ -101,25 +103,35 @@ font-size: 1.0rem;
   transform: scale(1.2);
 }
 
+/*----------------------------- Main Section -------------------------------*/
+
 #main {
   height: 700px;
   background-color: blue;
 }
+
+/*----------------------------- Skills Section -------------------------------*/
 
 .skills-portfolio {
   height: 700px;
   background-color:pink;
 }
 
+/*----------------------------- Contact Section -------------------------------*/--------*/
+
 #contact {
   height: 700px;
   background-color: black;
 }
 
+/*----------------------------- Services Section -------------------------------*/
+
 #services {
   height: 700px;
   background-color: orange;
 }
+
+/*----------------------------- Footer Section -------------------------------*/
 
 #footer {
   height: 100px;
