@@ -2,6 +2,7 @@
 *{
   padding:0;
   margin: 0;
+  list-style: none;
 }
 
 /*----------------------------- Navigation -------------------------------*/
@@ -107,15 +108,30 @@ font-size: 1.0rem;
 
 #main {
   height: 700px;
-  background-color: #D1D2D4;
+  background-color: #0B0D0F;
+  border-top: 1px solid #C1C2C4;
 }
 
+#about-image {
+  width: 18%;
+  position: absolute;
+  bottom: 2;
+  left: 16.5rem;
+  top:48rem;
+}
+
+.about-card{
+  position: absolute;
+  width: 440px;
+  color: #FFf;
+  padding: 50px 35px;
+  left:6.5rem;
+  top:63rem;
+  border-top: 1px solid #CC444B;
+}
 /*----------------------------- Skills Section -------------------------------*/
 
-.skills-portfolio {
-  height: 700px;
-  background-color:pink;
-}
+
 
 /*----------------------------- Contact Section -------------------------------*/--------*/
 
