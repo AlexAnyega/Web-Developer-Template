@@ -3,6 +3,12 @@
   padding:0;
   margin: 0;
   list-style: none;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+html{
+  scroll-behavior: smooth;
+
 }
 
 /*----------------------------- Navigation -------------------------------*/
@@ -71,19 +77,19 @@ nav ul li a:hover {
 }
 
 #header-cta{
-max-width: 35%;
-position: absolute;
-left: 6.5rem;
-top: 12rem;
-font-size: 3.0rem;
+  max-width: 35%;
+  position: absolute;
+  left: 6.5rem;
+  top: 12rem;
+  font-size: 3.0rem;
 }
 
 #cta-text{
-max-width: 35%;
-position: absolute;
-left: 6.5rem;
-top: 28rem;
-font-size: 1.0rem;
+  max-width: 35%;
+  position: absolute;
+  left: 6.5rem;
+  top: 28rem;
+  font-size: 1.0rem;
 }
 
 .cta-button{
@@ -116,8 +122,8 @@ font-size: 1.0rem;
   width: 18%;
   position: absolute;
   bottom: 2;
-  left: 16.5rem;
-  top:48rem;
+  left: 12.5rem;
+  top:46rem;
 }
 
 .about-card{
@@ -125,10 +131,48 @@ font-size: 1.0rem;
   width: 440px;
   color: #FFf;
   padding: 50px 35px;
-  left:6.5rem;
-  top:63rem;
-  border-top: 1px solid #CC444B;
+  left:3.5rem;
+  top:62rem;
+  border-top: 2px solid #CC444B;
 }
+
+.about-container{
+  position: absolute;
+  width:50%;
+  left: 38rem;
+  height: 102%;
+  background-color: #FFf;
+  border-radius: 25px;
+  background: #EAEAEA;
+  border: 1px solid #cc444b;
+}
+
+.download-resume{
+  background-color:#CC444B;
+  color:#FFFFFF;
+  text-decoration: none;
+  border: 2px solid black;
+  font-weight: bold;
+  padding:10px 25px;
+  border-radius: 25px;
+  transition: transform .4s;
+  position: absolute;
+  left: 9.5rem;
+  top: 17rem;
+}
+
+.download-resume:hover{
+  transform: translateY(5px);
+}
+
+
+.download-resume:hover {
+  background-color: #EAEAEA;
+  color: black;
+  box-shadow: rgba(0, 0, 0, 0.082);
+}
+
+
 /*----------------------------- Skills Section -------------------------------*/
 .skills_section{
   width: 100%;
@@ -139,6 +183,7 @@ font-size: 1.0rem;
   align-items: center;
   justify-content: center;
   flex-direction: column;
+  
 }
 .skills_head{
   width: 100%;
